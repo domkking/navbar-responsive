@@ -75,7 +75,7 @@ a:hover {
 
 /*stile linee menu*/
 .hamburger {
-    display: block;
+    display: none;
     position: relative;
     z-index: 1;
     user-select: none;
@@ -173,6 +173,10 @@ a:hover {
 
     .about:hover ul {
         left: 0;
+    }
+
+    .hamburger {
+        display: block;
     }
 }
 
